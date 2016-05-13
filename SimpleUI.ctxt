@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SimpleUI()
+comment1.params=prompt
+comment1.target=java.lang.String\ readLine(java.lang.String)
+comment2.params=prompt
+comment2.target=java.lang.String\ enterText(java.lang.String)
+comment3.params=prompt
+comment3.target=int\ enterInt(java.lang.String)
+comment4.params=prompt
+comment4.target=float\ enterFloat(java.lang.String)
+numComments=5
