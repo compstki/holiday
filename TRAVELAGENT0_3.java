@@ -1,38 +1,35 @@
-import java.util.*;
 
-public class TRAVELAGENT
+public class TRAVELAGENT0_3
 {
-    private HOLIDAY[] holidayList;
-    private Random random;
+    private HOLIDAY0_2[] holidayList;
     private int winner;
 
-    public TRAVELAGENT()
+    public TRAVELAGENT0_3()
     {
         setUp();
     }
 
     public void setUp()
     {
-        holidayList = new HOLIDAY[5];
+        holidayList = new HOLIDAY0_2[5];
+
         for (int i = 0; i<5 ; i++)
         {
-            holidayList[i] = new HOLIDAY();
+            holidayList[i] = new HOLIDAY0_2();
         }
-
-        random = new Random();
     }
 
     public void processHoliday()
     {
-        winner = random.nextInt(5);
+        winner = 2;
 
-        for (int i = 0; i<5 ; i++)
+        for (int i = 0; i<3 ; i++)
         {
             holidayList[i].enterName();
-            holidayList[i].enterValidNights();
+            holidayList[i].enterNights();
             holidayList[i].calculateTotalCost();
             holidayList[i].displayResult();
-            
+
             if (i == winner)
             {
                 System.out.println("winner: yes");
@@ -41,6 +38,7 @@ public class TRAVELAGENT
             {
                 System.out.println("winner: no");
             }
+
         }
     }
 }

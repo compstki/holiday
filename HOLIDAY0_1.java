@@ -1,11 +1,11 @@
 
-public class HOLIDAY extends SimpleUI
+public class HOLIDAY0_1 extends SimpleUI
 {
     private String name;
     private int nights;
     private float cost;
 
-    public HOLIDAY()
+    public HOLIDAY0_1()
     {
         name = "";
         nights = 0;
@@ -22,24 +22,10 @@ public class HOLIDAY extends SimpleUI
         nights = enterInt("Please enter the nights");
     }
 
-    public void calculateTotalCost()
-    {
-        cost = (nights * 100.0f) - 20.0f;
-    }
-
     public void displayResult()
     {
         System.out.println(name);
         System.out.println(cost);
-    }
-
-    public void enterValidNights()
-    {
-        nights = enterInt("Please enter the nights");
-        while ((nights<1) || (nights>7))
-        {
-            nights = enterInt("Error: please re-enter the nights");
-        }
     }
 
 }
