@@ -16,8 +16,8 @@ public class TRAVELAGENT0
     public void processHoliday()
     {
         holiday.enterName();
-        holiday.enterNights();
+        holiday.TenterNights();
         holiday.calculateTotalCost();
-        holiday.displayResult();
+        holiday.TdisplayResult();
     }
 }

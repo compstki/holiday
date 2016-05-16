@@ -31,7 +31,7 @@ public class TRAVELAGENT
             holidayList[i].enterName();
             holidayList[i].enterValidNights();
             holidayList[i].calculateTotalCost();
-            holidayList[i].displayResult();
+            holidayList[i].TdisplayResult();
             
             if (i == winner)
             {

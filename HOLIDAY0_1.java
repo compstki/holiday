@@ -17,12 +17,12 @@ public class HOLIDAY0_1 extends SimpleUI
         name = enterText("Please enter the name");
     }
 
-    public void enterNights()
+    public void TenterNights()
     {
         nights = enterInt("Please enter the nights");
     }
 
-    public void displayResult()
+    public void TdisplayResult()
     {
         System.out.println(name);
         System.out.println(cost);

@@ -26,9 +26,9 @@ public class TRAVELAGENT0_3
         for (int i = 0; i<3 ; i++)
         {
             holidayList[i].enterName();
-            holidayList[i].enterNights();
+            holidayList[i].TenterNights();
             holidayList[i].calculateTotalCost();
-            holidayList[i].displayResult();
+            holidayList[i].TdisplayResult();
 
             if (i == winner)
             {

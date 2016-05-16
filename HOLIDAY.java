@@ -17,7 +17,7 @@ public class HOLIDAY extends SimpleUI
         name = enterText("Please enter the name");
     }
 
-    public void enterNights()
+    public void TenterNights()
     {
         nights = enterInt("Please enter the nights");
     }
@@ -27,7 +27,7 @@ public class HOLIDAY extends SimpleUI
         cost = (nights * 100.0f) - 20.0f;
     }
 
-    public void displayResult()
+    public void TdisplayResult()
     {
         System.out.println(name);
         System.out.println(cost);

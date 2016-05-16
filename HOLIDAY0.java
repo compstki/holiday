@@ -14,7 +14,7 @@ public class HOLIDAY0 extends SimpleUI
 
     }
 
-    public void displayResult()
+    public void TdisplayResult()
     {
         System.out.println(name);
         System.out.println(cost);

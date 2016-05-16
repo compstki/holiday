@@ -21,8 +21,8 @@ public class TRAVELAGENT0_1
     public void processHoliday()
     {
         holidayList[0].enterName();
-        holidayList[0].enterNights();
+        holidayList[0].TenterNights();
         holidayList[0].calculateTotalCost();
-        holidayList[0].displayResult();
+        holidayList[0].TdisplayResult();
     }
 }
