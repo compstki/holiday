@@ -35,7 +35,7 @@ public class HOLIDAY extends SimpleUI
 
     public void enterValidNights()
     {
-        nights = enterInt("Please enter the nights");
+        nights = enterInt("Please enter the number of nights");
         while ((nights<1) || (nights>7))
         {
             nights = enterInt("Error: please re-enter the nights");
